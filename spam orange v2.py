@@ -1,5 +1,6 @@
 import requests
 import sys,time,pyfiglet 
+from time import sleep 
 print ('\033[1;92mclick on this link to get password👇')
 #sleep (0.1)
 print ()
