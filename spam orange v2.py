@@ -1,4 +1,5 @@
 import requests
+from bs4 import BeautifulSoup as BS
 import sys,time,pyfiglet 
 from time import sleep 
 print ('\033[1;92mclick on this link to get password👇')
