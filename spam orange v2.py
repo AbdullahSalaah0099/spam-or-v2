@@ -79,7 +79,7 @@ number_of_messeges=(int(input ('Enter Number Of Messages  :  ')))
 
 zcx=0
 while zcx<number_of_messeges:
-    time.slepp(2)
+    time.sleep(2)
     url=('http://tvsub.orange.eg/VideoPortalLandingPage/SubInt')
     headers={
 'Host': 'tvsub.orange.eg',
