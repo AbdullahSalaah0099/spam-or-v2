@@ -5,7 +5,7 @@ from time import sleep
 print ('\033[1;92mclick on this link to get password👇')
 #sleep (0.1)
 print ()
-link1="\033[1;93m https://miklpro.com/sF9r"
+link1="\033[1;93m https://miklpro.com/9aw3qf"
 print (link1)
 #sleep (1)
 print ()
@@ -16,7 +16,7 @@ sleep (1)
 soup=BS(rrr,'html.parser')
 lxc=(soup.find('div',{'class':'body-display'})).text'''
 
-if password =="Abdullah7520":
+if password =="Abdullah3456":
     print ()
     print ('\033[1;96m》True Password《')
     sleep (1)
