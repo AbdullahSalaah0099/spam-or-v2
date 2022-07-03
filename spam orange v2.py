@@ -32,8 +32,7 @@ else:
 time.sleep (2)
 print ('\033[;093m='*50)
 print ('\033[;096m')
-poli=pyfiglet.figlet_format ('            SPAM\n   Vodafone\nBy  Abdullah')
-print (poli)
+poli=pyfiglet.figlet_format ('SPAM OR V2')
 c=('\033[;092m×××××××××××××××××××××××××××××××××××××××')
 for I in c+'\n':
 	sys.stdout.write (I)
@@ -46,7 +45,8 @@ for I in d +'\n':
 	sys.stdout.flush ()
 	time.sleep (00.10)
 print ()
-c='#### Script Spam Sms for Vodafone ###'
+c='#### Script SpamSms for Orange V2###'
+
 for I in c+'\n':
     sys.stdout.write(I) 
     sys.stdout.flush ()
